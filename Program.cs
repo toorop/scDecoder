@@ -40,7 +40,6 @@ namespace scDecoder
 
             foreach (string chunck in chuncks)
             {
-                Debug.WriteLine(chunck);
                 index1 = alpha1.IndexOf(chunck[1]) + 1;
                 index2 = alpha2.IndexOf(chunck[0]);
                 index3 = alpha1.IndexOf(chunck[2]) + 1;
